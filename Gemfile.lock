@@ -29,7 +29,7 @@ GEM
     builder (3.2.3)
     concurrent-ruby (1.1.1)
     crass (1.0.4)
-    double_entry (0.10.1)
+    double_entry (1.0.1)
       activerecord (>= 3.2.0)
       activesupport (>= 3.2.0)
       money (>= 6.0.0)
@@ -42,7 +42,7 @@ GEM
     jwt_signed_request (2.4.0)
       jwt (~> 1.5.0)
       rack
-    loofah (2.2.2)
+    loofah (2.2.3)
       crass (~> 1.0.2)
       nokogiri (>= 1.5.9)
     method_source (0.9.1)
@@ -52,7 +52,7 @@ GEM
       i18n (>= 0.6.4, <= 2)
     nokogiri (1.8.5)
       mini_portile2 (~> 2.3.0)
-    pagerduty (2.0.0)
+    pagerduty (2.1.2)
       json (>= 1.7.7)
     rack (2.0.6)
     rack-test (1.1.0)
@@ -73,17 +73,17 @@ GEM
     thread_safe (0.3.6)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    zxcvbn-ruby (0.0.2)
+    zxcvbn-ruby (0.1.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  double_entry (= 0.10.1)
+  double_entry
   jwt_signed_request
-  loofah (= 2.2.2)
-  pagerduty (= 2.0.0)
-  zxcvbn-ruby (= 0.0.2)
+  loofah
+  pagerduty
+  zxcvbn-ruby
 
 BUNDLED WITH
    1.17.1
