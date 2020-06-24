@@ -53,7 +53,7 @@ GEM
       mini_portile2 (~> 2.4.0)
     pagerduty (2.1.2)
       json (>= 1.7.7)
-    rack (2.2.2)
+    rack (2.2.3)
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
     rails-dom-testing (2.0.3)
